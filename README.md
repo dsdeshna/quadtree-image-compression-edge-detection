@@ -40,19 +40,6 @@ pip install opencv-python numpy
 ## Example Usage
 ```text
 enter image path: /content/sample.png
-
-tolerance guide:
-- compression tolerance: controls how much neighboring colors can differ before merging.
-    lower values (5-10) = detailed, less compression.
-    higher values (15-30) = blockier but smaller image.
-
-- edge color tolerance: controls sensitivity to color changes when finding edges.
-    lower values (5-10) = detects even faint edges, can be noisy.
-    higher values (10-20) = detects only strong edges.
-
-- edge variance tolerance: controls sensitivity to pixel variance in regions.
-    lower values (3-6) = picks up more edges and textures.
-    higher values (7-12) = smoother output, fewer edges.
 ```
 
 ## Results
